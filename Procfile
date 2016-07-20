@@ -1,1 +1,1 @@
-web: node pokemon-showdown
+web: npm start
