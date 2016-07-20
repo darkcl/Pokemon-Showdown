@@ -1,1 +1,1 @@
-web: node pokemonshowdown
+web: node pokemon-showdown
