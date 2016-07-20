@@ -170,7 +170,7 @@ if (require.main === module) {
 	if (process.argv[2]) {
 		port = parseInt(process.argv[2]); // eslint-disable-line radix
 	}
-	Sockets.listen(port);
+	Sockets.listen(process.env.PORT || port);
 }
 
 /*********************************************************
