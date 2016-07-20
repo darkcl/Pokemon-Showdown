@@ -1,9 +1,9 @@
 'use strict';
 
 // The server port - the port to run Pokemon Showdown under
-exports.port = 8000;
+exports.port = 80;
 
-exports.ssl = {port: 8000};
+exports.ssl = {port: 80};
 
 exports.bindaddress = 'cp-pokemon-fight.herokuapp.com'
 // proxyip - proxy IPs with trusted X-Forwarded-For headers
